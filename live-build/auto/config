@@ -1,0 +1,9 @@
+#!/bin/sh
+
+set -e
+
+lb config noauto \
+    --distribution stable \
+    --archive-areas "main contrib non-free non-free-firmware" \
+    --linux-packages "linux-image" \
+    "${@}"
