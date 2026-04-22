@@ -1,0 +1,6 @@
+./binary
+./binary.*
+./cache
+./chroot
+./chroot.*
+./live-image-amd64.*
